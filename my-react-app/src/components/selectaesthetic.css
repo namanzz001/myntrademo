@@ -1,0 +1,69 @@
+.image-container3 {
+    position: relative; /* Make the container a positioning context */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .para3{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  .icons3{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-bottom: 30px;
+  
+    }
+
+.text-overlay {
+        position:absolute;
+        top: 35%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: rgb(255, 255, 255); 
+        font-variation-settings: "wght" 40;
+        font-feature-settings: "calt" 0, "liga" 0;
+        font-size: 70px; 
+        text-align: center; 
+        font-family: "dT Jakob Variable Concept Regular";
+ }
+
+.text-overlay2 {
+        position:absolute;
+        top: 90%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: rgb(255, 255, 255); 
+        font-size: 70px; 
+        text-align: center; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-overlay3 {
+    position:absolute;
+    top: 145%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(255, 255, 255); 
+    font-size: 70px; 
+    text-align: center; 
+    font-family:'Times New Roman', Times, serif
+}
+
+.text-overlay4 {
+    position:absolute;
+    top: 200%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(5, 4, 4); 
+    font-size: 45px; 
+    text-align: right; 
+    
+}

@@ -1,0 +1,56 @@
+*{
+
+}
+
+.aesthetic-quiz {
+  color: black;
+  margin: 200px auto;
+  width: 500px;
+  height: auto; /* Allow height to adjust based on content */
+  max-width: 100%;
+  padding: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Ensure column layout */
+  justify-content: center; /* Center align items vertically */
+  align-items: center; /* Center align items horizontally */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.aesthetic-quiz h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.aesthetic-quiz ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Make sure the ul takes full width */
+}
+
+.aesthetic-quiz li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.aesthetic-quiz button {
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border: 3px solid rgb(243, 224, 201);
+  padding: 12px;
+  margin: 4px;
+  width: 100%; /* Ensure the button takes full width of the container */
+  color: black; /* Ensure the text color is visible */
+  text-align: center; /* Center align text within the button */
+}
+
+.aesthetic-quiz button:hover {
+  background-color: rgba(243, 224, 201, 0.3); /* Light background on hover */
+}

@@ -1,0 +1,65 @@
+/* src/components/ProductPage.css */
+.product-page {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .product-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Updated color */
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card h2 {
+    color: black; /* Updated color */
+  }
+  
+  .product-card p {
+    color: black; /* Updated color for the product name */
+  }
+  
+  .product-card .original-price {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .product-card .discount-price {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .product-card .discount {
+    color: green;
+  }
+  
+  .product-card .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .product-card .best-price {
+    color: blue;
+    font-weight: bold;
+  }
+  

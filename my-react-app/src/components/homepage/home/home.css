@@ -1,0 +1,16 @@
+.navbar {
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the page */
+    left: 0;  
+    background-color: #fff; /* Set the background color (optional) */
+    padding: 1rem; /* Add some padding (optional) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow (optional) */
+  }
+
+.home1{
+        padding-top: 80px; 
+        width: 1480px;
+}
+.home{ 
+    width: 1480px;
+}
